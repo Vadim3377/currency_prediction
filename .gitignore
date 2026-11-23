@@ -1,0 +1,21 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+.pytest_cache/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Large generated outputs (regenerate with scripts/run_forecast.py or the notebook)
+outputs/
+data/*.npy
+data/forecast_usd_sle_12m_paths.csv
+
+# IDE / OS
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db

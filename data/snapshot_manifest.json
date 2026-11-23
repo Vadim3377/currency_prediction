@@ -1,0 +1,42 @@
+{
+  "created": "2026-11-08",
+  "data_end": "2026-11-06",
+  "files": {
+    "usd_sll_yahoo_raw.csv": {
+      "sha256": "609877835e8e9e575f7bd58fcffddcbd3862c3453edac07845a855282ba66ca2",
+      "rows": 3093,
+      "first_date": "2015-01-01",
+      "last_date": "2026-11-08"
+    },
+    "usd_sll_wise_raw.csv": {
+      "sha256": "5908fc20f8a197b907edcc526d5882cfa187407078b6ecc67b6541f5601eea70",
+      "rows": 1827,
+      "first_date": "2021-11-08",
+      "last_date": "2026-11-08"
+    },
+    "usd_sle_daily.csv": {
+      "sha256": "fb7d1b4b62be540e94792bb82f8284af752a80fab8b22a345e7f781ef14ecd57",
+      "rows": 3574,
+      "first_date": "2015-01-01",
+      "last_date": "2026-11-08"
+    },
+    "usd_ghs_wise_raw.csv": {
+      "sha256": "d004c8652a083c3dbf88a882dee401d3173884742adaef6a04a603e1303e88a2",
+      "rows": 1827,
+      "first_date": "2021-11-08",
+      "last_date": "2026-11-08"
+    },
+    "usd_ngn_wise_raw.csv": {
+      "sha256": "ee8fe7109a5a85160d893358ac8c2df2e2aad8d8786ae438ec212aa52ca06368",
+      "rows": 1827,
+      "first_date": "2021-11-08",
+      "last_date": "2026-11-08"
+    },
+    "usd_kes_wise_raw.csv": {
+      "sha256": "8b98c9737b42a4a3646b918838166862e2199d408abac3cb8499c45e4b6dbd80",
+      "rows": 1827,
+      "first_date": "2021-11-08",
+      "last_date": "2026-11-08"
+    }
+  }
+}
