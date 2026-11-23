@@ -131,7 +131,7 @@ def build_usd_sle(data_dir: Path = DATA_DIR, refresh: bool = False) -> pd.Series
     ])
     rate.index.name = "date"
     rate["usd_sle"] = rate["usd_sle"].round(5)
-    rate.to_csv(merged)
+    rate.to_csv(merged, lineterminator="\r\n")  # CRLF: byte-identical to the hashed snapshot on any OS
     print(f"Saved {merged}: {len(rate):,} rows, splice at {splice_date.date()}")
 
     verify_snapshot([raw_yahoo, raw_wise, merged], data_dir / "snapshot_manifest.json", refresh)
